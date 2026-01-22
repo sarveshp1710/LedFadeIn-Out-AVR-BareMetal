@@ -1,7 +1,12 @@
 <h1> Hi GitMates, </h1> 
 
-Here I am sharing my LED Fade in / Fade out AVR bare matal program. This is my first proper bare-metal program without googling or tutorials. I did this by understanding how timers/counters works in register level by digging datasheet. I used actual hardware timers so that it won't burden CPU.
-I also learnt to use Interrup Service Routine in this AVR MCU (Atmega328p). I learnt how actual Engineers handles MCU by digging Datasheets / User manuals of the MCUs. I am not going to stop with this, stay tunedd!!!
+Here I am sharing my LED Fade in / Fade out AVR bare matal program. This is my first proper bare-metal program without googling or tutorials.
+
+I did this by understanding how timers/counters works in register level by digging datasheet. I used actual hardware timers so that it won't burden CPU.
+
+I also learnt to use Interrup Service Routine in this AVR MCU (Atmega328p). I learnt how actual Engineers handles MCU by digging Datasheets / User manuals of the MCUs.
+
+I am not going to stop with this, stay tunedd!!!
 
 ```
 
