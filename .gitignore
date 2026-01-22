@@ -5,4 +5,4 @@ ledFade_v1.c
 Blink.elf
 ledFade.hex
 Makefile
-.cache/clangd/index
+.gitignore
