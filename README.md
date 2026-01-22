@@ -44,6 +44,7 @@ int main(){
 The above code is ```ledFade.c``` file.
 
 I also listed the registers which I used in this program.
+
 <i>
 TCCR1A
     COM1A1 = set
