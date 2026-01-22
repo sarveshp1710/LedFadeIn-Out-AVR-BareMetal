@@ -4,5 +4,4 @@ ledFade.elf
 ledFade_v1.c
 Blink.elf
 ledFade.hex
-Makefile
 .gitignore
