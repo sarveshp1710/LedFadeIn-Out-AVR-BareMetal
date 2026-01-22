@@ -1,0 +1,31 @@
+TCCR1A
+    COM1A1 = set
+    COM1A0 = clear
+    (non inverting mode, Fast PWM, 8-bit)
+    WGM10 = set
+
+TCCR1B
+    WGM12 = set
+    CS10 = set
+    CS11 = set
+    (f_clk/64)
+    OCR1A = compare value(0-255)
+
+DDRB
+    PB1(OC1A) = set (OUTPUT)
+
+Timer/Counter2 --> for OCR1A update
+Normal mode
+TCCR2A
+    WGM21 = clear
+    WGM20 = clear
+
+TCCR2B
+    WGM22 = clear
+    CS21 = set
+    CS22 = set (254 prescaler)
+
+TIMSK2
+    TOIE2 = set (interrupt enable)
+SREG
+    I = set (global interrupt enable)
