@@ -7,3 +7,4 @@ Blink.elf
 ledFade.c
 ledFade.hex
 Makefile
+.cache
