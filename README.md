@@ -43,7 +43,7 @@ int main(){
 ---
 The above code is ```ledFade.c``` file.
 
-I also listed the registers which I used in this program.
+I also listed the registers which I used in this program in the ```Register.txt``` file.
 
 <i>
 TCCR1A
